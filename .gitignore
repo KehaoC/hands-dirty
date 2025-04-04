@@ -1,0 +1,24 @@
+# Start Generation Here
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.env
+*.venv
+*.virtualenv
+*.pytest_cache/
+*.coverage
+*.mypy_cache/
+*.tox/
+*.coverage.*
+# End Generation Here
+
+# 模型
+pretrained_models/
