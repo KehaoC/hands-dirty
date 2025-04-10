@@ -22,3 +22,6 @@ build/
 
 # 模型
 pretrained_models/
+
+# 缓存
+cache/
