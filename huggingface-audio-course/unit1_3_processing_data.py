@@ -76,8 +76,6 @@ def pre_processing():
     plt.colorbar()
     plt.show()
 
-
-
     pass
 
 if __name__ == "__main__":
