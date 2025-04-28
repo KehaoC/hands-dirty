@@ -8,6 +8,7 @@ To learn:
 On-going:
 - [ ] : Hugginface LLM Course: https://huggingface.co/learn/llm-course/chapter1/1
 - [ ] : Huggingface Audio Course: https://huggingface.co/learn/audio-course/chapter0/introduction
+- [ ] :Expo + React Native:
 
 Archive:
 - [x] : llm-action - Distributed ML: https://github.com/liguodongiot/llm-action

@@ -1,13 +1,15 @@
-// metro.config.js
-// 配置 Metro 打包器，决定你的项目资源（JS、图片等）怎么被打包和加载。
-
+const { getDefaultConfig } = require('expo/metro-config');
 const { 
-    wrapWithReanimatedMetroConfig,
-  } = require('react-native-reanimated/metro-config');
-  
-  const config = {
-    // 这里可以加你自己的 Metro 配置，如果没有可以留空
-  };
-  
-  module.exports = wrapWithReanimatedMetroConfig(config);
+  wrapWithReanimatedMetroConfig,
+} = require('react-native-reanimated/metro-config');
+
+const config = getDefaultConfig(__dirname);
+
+// 添加资源处理配置
+config.resolver = {
+  ...config.resolver,
+  assetExts: [...config.resolver.assetExts, 'png', 'jpg', 'jpeg', 'gif'],
+};
+
+module.exports = wrapWithReanimatedMetroConfig(config);
   
